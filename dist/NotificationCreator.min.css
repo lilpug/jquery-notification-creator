@@ -1,0 +1,11 @@
+/*
+    Title: Notification Creator (NC)
+    URL: https://github.com/lilpug/jquery-notification-creator
+    Version: 1.0
+    Author: David Whitehead
+    Copyright (c) David Whitehead
+    Copyright license: MIT
+    Description: a notification generator plugin                 
+    Requires: jquery 1.7+, bootstrap 3, fontawesome 4+
+*/
+.spacing{margin-top:15px;margin-bottom:15px}.notification-container{padding:0;display:inline-block;text-align:left}.notification-container.alert{margin-bottom:0}.notification-container>.close>*{padding:10px;display:table-cell;vertical-align:middle}.notification-container>.close{outline:0}.notification-container>.alert-labeled-row{display:table-row;padding:0}.notification-container>.alert-labeled-row>.alert-labelled-cell{padding:10px;display:table-cell;vertical-align:middle}.notification-container .alert-label,.notification-container>.alert-label{vertical-align:middle;width:auto;padding:5px 10px;height:100%;font-size:18px}.notification-container>.alert-labeled-row>.alert-label i{color:#fff;margin-top:5px}@media only screen and (max-width :480px){.notification-container .alert-label{vertical-align:middle;width:auto;padding:2px!important;font-size:14px!important}.notification-container>.alert-labeled-row>.alert-label i{margin-top:0!important}}.notification-danger{border:1px solid #d9534f}.notification-danger>.alert-labeled-row>.alert-label{background:#d9534f}.notification-info{border:1px solid #5bc0de}.notification-info>.alert-labeled-row>.alert-label{background:#5bc0de}.notification-success{border:1px solid #5cb85c}.notification-success>.alert-labeled-row>.alert-label{background:#5cb85c}

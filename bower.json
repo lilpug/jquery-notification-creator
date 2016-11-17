@@ -1,0 +1,33 @@
+{
+  "name": "jquery-notification-creator",
+  "title": "Jquery Notification Creator",
+  "description": "A plugin that generates adjustable clear and concise notifications using jquery 1.7+, bootstrap 3 and fontawesome 4+.",  
+  "main": [
+    "src/NotificationCreator.js",
+    "src/NotificationCreator.css"
+  ],
+  "authors": [
+    "David Whitehead <david__whitehead2@hotmail.com>"
+  ],
+  "license": "MIT",  
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/lilpug/jquery-notification-creator.git"
+  },
+  "dependencies": {
+    "jquery": ">=1.7",
+	"bootstrap": ">=3",
+	"fontawesome": ">=4"
+  },
+  "keywords": [
+    "notification",
+    "creator",
+    "jquery",
+    "jquery-notification-creator",
+	"notification-creator"
+  ],  
+  "bugs": "https://github.com/lilpug/jquery-notification-creator/issues",
+  "homepage": "https://github.com/lilpug/jquery-notification-creator",
+  "docs": "https://github.com/lilpug/jquery-notification-creator",
+  "download": "https://github.com/lilpug/jquery-notification-creator"
+}

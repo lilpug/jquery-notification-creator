@@ -1,0 +1,102 @@
+/*
+    Title: Notification Creator (NC)
+    URL: https://github.com/lilpug/jquery-notification-creator
+    Version: 1.0
+    Author: David Whitehead
+    Copyright (c) David Whitehead
+    Copyright license: MIT
+    Description: a notification generator plugin                 
+    Requires: jquery 1.7+, bootstrap 3, fontawesome 4+
+*/
+
+/*---------------------------*/
+/* main notification styling */
+/*---------------------------*/
+
+.spacing {
+   margin-top:15px;
+   margin-bottom:15px;
+}
+
+.notification-container {
+  padding: 0px;
+  display: inline-block;
+  text-align:left;
+}
+
+.notification-container.alert {
+    margin-bottom:0px;
+}
+
+.notification-container > .close > *{
+    padding:10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.notification-container > .close {
+    outline: none;
+}
+
+.notification-container > .alert-labeled-row {
+    display: table-row;
+    padding: 0px;
+}
+
+.notification-container > .alert-labeled-row > .alert-labelled-cell{
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.notification-container .alert-label, .notification-container > .alert-label{
+    vertical-align: middle;
+    width: auto;
+    padding: 5px 10px;
+    height: 100%;
+    font-size:18px;
+}
+
+.notification-container > .alert-labeled-row > .alert-label i{
+    color: #fff;
+    margin-top:5px;
+}
+
+@media only screen and (max-width : 480px) {
+    .notification-container .alert-label {
+        vertical-align: middle;
+        width: auto;
+        padding: 2px 2px !important;
+        font-size:14px !important;
+    }
+    
+    .notification-container > .alert-labeled-row > .alert-label i {
+        margin-top:0px !important;  
+    }
+}
+
+
+/*-------------------------------*/
+/* Deals with the colour styling */
+/*-------------------------------*/
+
+.notification-danger {
+    border: solid 1px #d9534f;
+}
+.notification-danger > .alert-labeled-row > .alert-label {
+    background: #d9534f;
+}
+
+.notification-info {
+    border: solid 1px #5bc0de;
+}
+.notification-info > .alert-labeled-row > .alert-label {
+    background: #5bc0de;
+}
+
+.notification-success {
+    border: solid 1px #5cb85c;
+}
+.notification-success > .alert-labeled-row > .alert-label {
+    background: #5cb85c;
+}
