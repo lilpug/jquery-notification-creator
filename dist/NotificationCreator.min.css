@@ -1,4 +1,4 @@
-/*
+/*!
     Title: Notification Creator (NC)
     URL: https://github.com/lilpug/jquery-notification-creator
     Version: 1.0
