@@ -1,5 +1,7 @@
 # Jquery Notification Creator
 
+Jquery Notification Creator is a plugin that allows you to create dynamic scaling alert messages boxes without having to define the html template for it beforehand.
+
 ## Getting Started
 Download and include the minified css and js files under the dist folder.
 
